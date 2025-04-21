@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cindy's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #f0f4f8, #e0e7ff);
+    }
+  </style>
+</head>
+<body class="text-gray-900 font-sans">
+  <!-- Landing with Image -->
+  <section class="min-h-screen flex items-center justify-center flex-col text-center p-4 bg-gradient-to-br from-pink-100 to-pink-200">
+    <img src="IMG_0935 2.jpg" alt="Cindy's Photo" class="w-40 h-40 rounded-full shadow-xl border-4 border-pink-400 object-cover mb-4">
+    <h1 class="text-5xl font-extrabold mb-2 text-pink-800 animate-pulse">Hi, I'm Cindy</h1>
+    <p class="text-xl text-gray-700">Aspiring AI/ML Engineer | Data Analyst | Tech-Enthusiast Innovator</p>
+  </section>
+
+  <!-- About Me -->
+  <section class="max-w-4xl mx-auto p-6">
+    <h2 class="text-3xl font-semibold mb-4 text-pink-700 border-b-2 border-pink-300">About Me</h2>
+    <p class="text-gray-800 leading-relaxed">
+      Hi! I'm a computer science student with a strong passion for artificial intelligence and machine learning.
+      I enjoy working on projects that blend creativity and technology, whether that’s building neural networks,
+      fine-tuning models with PyTorch, or analyzing datasets using Python and pandas. I've gained experience
+      in areas like deep learning, natural language processing, and data visualization through both coursework
+      and independent projects. I’m particularly interested in how intelligent systems can be used to solve
+      real-world problems. I'm currently seeking research opportunities in AI/ML where I can apply my skills,
+      collaborate with others, and keep learning at the edge of innovation.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="max-w-6xl mx-auto p-6">
+    <h2 class="text-3xl font-semibold mb-6 text-pink-700 border-b-2 border-pink-300">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white shadow-2xl rounded-xl p-6 transition transform hover:-translate-y-1 hover:shadow-pink-400">
+        <h3 class="text-xl font-bold text-pink-800">MBTI Personality Predictor</h3>
+        <p class="text-gray-700 mt-2">A web app using PyTorch and Flask that predicts MBTI types based on user input.</p>
+        <a href="https://github.com/cindycastanon/mbti-predictorapp" target="_blank" class="text-pink-600 mt-2 inline-block hover:underline">View on GitHub</a>
+      </div>
+      <div class="bg-white shadow-2xl rounded-xl p-6 transition transform hover:-translate-y-1 hover:shadow-pink-400">
+        <h3 class="text-xl font-bold text-pink-800">Bullsmarketplace</h3>
+        <p class="text-gray-700 mt-2">A React-based platform designed for USF students to buy, sell, or trade lab kits and textbooks. Built with JavaScript, HTML, and React.</p>
+        <a href="https://github.com/cindycastanon/bullsmarketplace" target="_blank" class="text-pink-600 mt-2 inline-block hover:underline">View on GitHub</a>
+      </div>
+      <div class="bg-white shadow-2xl rounded-xl p-6 transition transform hover:-translate-y-1 hover:shadow-pink-400">
+        <h3 class="text-xl font-bold text-pink-800">Jarvis AI Healthcare</h3>
+        <p class="text-gray-700 mt-2">Jarvis is an intelligent healthcare assistant that helps users track their well-being and receive personalized care suggestions. Built using Python, it features ML models trained with PyTorch, NLP for user input, and data visualization with Pandas and Matplotlib. Inspired by public health work and designed with a patient-first mindset.</p>
+        <a href="https://github.com/cindycastanon/jarvis-healthcare" target="_blank" class="text-pink-600 mt-2 inline-block hover:underline">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section class="max-w-4xl mx-auto p-6 text-center">
+    <h2 class="text-3xl font-semibold mb-4 text-pink-700 border-b-2 border-pink-300">Resume</h2>
+    <a href="Resume g.pdf" download class="inline-block bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition-all duration-300 shadow-lg">
+      Download Resume
+    </a>
+  </section>
+
+  <!-- Contact -->
+  <section class="max-w-4xl mx-auto p-6 text-center">
+    <h2 class="text-3xl font-semibold mb-4 text-pink-700 border-b-2 border-pink-300">Contact</h2>
+    <p class="text-gray-700">Let's connect!</p>
+    <div class="flex justify-center gap-6 mt-4">
+      <a href="mailto:cindycastanon@usf.edu" class="text-pink-600 hover:underline">Email</a>
+      <a href="https://github.com/cindycastanon" class="text-pink-600 hover:underline">GitHub</a>
+      <a href="https://linkedin.com/in/cindy-castanon/" class="text-pink-600 hover:underline">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 mt-10 mb-4">© 2025 Cindy</footer>
+</body>
+</html>
